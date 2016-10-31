@@ -215,10 +215,55 @@ body {
 *, *::before, *::after {
   box-sizing: border-box; }
 
+#nav_bar {
+  border: 0;
+  background-color: #424242;
+  border-radius: 0px;
+  margin-bottom 0;
+  height: 50px; 
+  padding-right: 40px;
+  padding-top: 10px;
+}
+
+.navbar-fixed {
+  top: 0;
+  z-index: 100;
+  position: fixed;
+  width: 100%;
+  background-color: #424242;
+  height: 50px; 
+  padding-right: 40px;
+  padding-top:10px;
+}
+
+.nav_links {
+  margin: 0;
+}
+
+.nav_links :hover {
+  color: #adadad;
+}
+
+.nav_links li{
+  display: inline-block;
+  margin-top: 4px;
+}
+
+.nav_links li:not(:last-child){
+  border-right: 1px solid #4e4e4e;
+}
+
+.nav_links li a{ 
+  padding: 0 20px;
+  color: white;
+  text-decoration: none;
+  font-size: 1  rem;
+ }
+
 .nav {
   background-color: #732673;
   margin: 0;
-  margin-top: 40px;
+  margin-top: 60px;
   padding: 0; }
 
 .nav-item {
