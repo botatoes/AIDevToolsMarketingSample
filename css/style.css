@@ -263,7 +263,7 @@ body {
 .nav {
   background-color: #732673;
   margin: 0;
-  margin-top: 60px;
+  margin: 100px 0;
   padding: 0; }
 
 .nav-item {
@@ -377,7 +377,7 @@ body {
 
 
 .discover-links {
-    margin-bottom: 50px
+    margin-bottom: 30px
 }
 
 .discover-links a {
