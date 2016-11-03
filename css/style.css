@@ -260,6 +260,11 @@ body {
   font-size: 1  rem;
  }
 
+ @media only screen and (min-width: 40.063em) {
+  .navbar-fixed {
+      height: 400px;
+    }}
+
 .nav {
   background-color: #732673;
   margin: 0;
